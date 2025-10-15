@@ -29,8 +29,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  background: radial-gradient(1200px circle at 20% 10%, #3a99e7 0%, transparent 60%),
-    linear-gradient(135deg, #084197 0%, #1169c2 50%, #0a3669 100%);
+  background: radial-gradient(1200px circle at 20% 10%, #3089d2 0%, transparent 60%),
+    linear-gradient(135deg, #06357b 0%, #0d549c 50%, #072d59 100%);
 }
 
 h1 {
@@ -101,7 +101,7 @@ button:focus-visible {
 
 /* Coming Soon styles */
 .wrapper {
-  min-height: 28vh;
+  min-height: 40vh;
   display: grid;
   place-items: center;
   padding: 0 2rem;
@@ -113,6 +113,7 @@ button:focus-visible {
   letter-spacing: -0.02em;
   margin: 0 0 0.5rem;
   color: #e3f2fd;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
 }
 
 .subtitle {
@@ -121,4 +122,14 @@ button:focus-visible {
   margin: 0;
   color: #e3f2fd;
   opacity: 0.9;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.brand-logo {
+  height: clamp(60px, 18vw, 130px);
+  width: auto;
+  display: block;
+  margin: 0 auto 1.0rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  user-select: none;
 }
